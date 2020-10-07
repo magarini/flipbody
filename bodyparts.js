@@ -1,12 +1,33 @@
 function generate(){
 
 var bodyparts = [
-    "head",
-    "eyes",
-    "ears",
-    "nose",
-    "hands",
+    "legs",
+    "hips",
+    "belly",
+    "chin",
+    "arms",
+    "fingers",
     "knees",
+    "mouth",
+    "pelvis",
+    "back",
+    "head",
+    "face",
+    "feet",
+    "spine",
+    "tongue",
+    "wrists",
+    "neck",
+    "shoulders",
+    "chest",
+    "cage",
+    "ankles",
+    "thighs",
+    "toes",
+    "eyes",
+    "elbows",
+    "breasts",
+    "skull"
   ];
 
   var adjectives=[
@@ -22,7 +43,22 @@ var bodyparts = [
       "malicious",
       "disillusioned",
       "vacant",
-      "stubborn"
+      "stubborn",
+      "sassy",
+      "goofy",
+      "exhausted",
+      "forgetful",
+      "furious",
+      "zealous",
+      "whimsical",
+      "hesitant",
+      "clumsy",
+      "wild",
+      "suspicious",
+      "vulgar",
+      "intoxicated",
+      "elated"
+  
   ]
 
 
