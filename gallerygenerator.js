@@ -2,9 +2,10 @@ let bodysculptures=[];
 let x;
 
 function preload(){
-    for (i=2;i<6;i++){
+    for (i=0;i<5;i++){
     bodysculptures[i]=loadImage('bodysculpture ('+i+').png');
-    }
+    console.log(bodysculptures[i]);
+}
 }
 
 function setup() {
@@ -16,17 +17,10 @@ function setup() {
   
   function draw() {
       background(random(255),random(255),random(255))
-    for (i=2;i<bodysculptures.length;i++){
-        //rotate(random(-50,50));
-    image(bodysculptures[i],0,0);
-    }
-    x=random(2,6);
-    image(bodysculptures[x],0,0);
-
-    //noLoop();
+    
+let img=random(bodysculptures);
+image(img,0,0);
+ 
   }
   
-  function takePic() {
-    saveCanvas('bodysculpture');
-   }
   
