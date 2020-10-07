@@ -10,9 +10,19 @@ var bodyparts = [
   ];
 
   var adjectives=[
-      "happy",
-      "angry",
-      "disapointed"
+      "cruel",
+      "anxious",
+      "lazy",
+      "melancholic",
+      "infatuated",
+      "ecstatic",
+      "desperate",
+      "mischievous",
+      "greedy",
+      "malicious",
+      "disillusioned",
+      "vacant",
+      "stubborn"
   ]
 
 
