@@ -47,6 +47,7 @@ button:hover{
 p{
     margin:5px;
     font-size: 2em;
+    text-align: center;
 }
 
 a{
@@ -81,4 +82,9 @@ hr{
     main{
     width:100%;
 }
+}
+
+
+#gallery img:hover{
+    width:100%;
 }
