@@ -3,6 +3,8 @@ let bodyparts=[];
 function preload(){
     for (i=0;i<6;i++){
     bodyparts[i]=loadImage('bodypart'+i+'.png');
+    bodyparts[i].style("z-index: -100");
+
     }
 }
 
