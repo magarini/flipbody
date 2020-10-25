@@ -2,7 +2,7 @@ let bodysculptures=[];
 let x;
 
 function preload(){
-    for (i=0;i<5;i++){
+    for (i=0;i<6;i++){
     bodysculptures[i]=loadImage('bodysculpture ('+i+').png');
     console.log(bodysculptures[i]);
 }
