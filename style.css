@@ -16,6 +16,8 @@ h1{
     border-bottom:1px solid;
     font-size: 3em;
     font-weight: normal;
+    text-align: center;
+
 }
 
 h2{
@@ -48,6 +50,7 @@ button:hover{
 p{
     margin:5px;
     font-size: 2em;
+    text-align: center;
 }
 
 a{
@@ -79,7 +82,12 @@ hr{
 
 @media only screen and (max-width: 600px) {
 
-    body{
-    main:100%;
+    main{
+    width:100%;
 }
+}
+
+
+#gallery img:hover{
+    width:100%;
 }
